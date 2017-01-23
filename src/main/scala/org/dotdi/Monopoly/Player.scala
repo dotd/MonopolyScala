@@ -1,5 +1,5 @@
 package org.dotdi.Monopoly
 
-class Player {
+trait Player {
   
 }

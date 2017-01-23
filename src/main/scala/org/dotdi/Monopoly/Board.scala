@@ -77,3 +77,9 @@ object Board {
       rent = 50, with_1_house = 200, with_2_houses = 600, with_3_houses = 1400, with_4_houses = 1700, with_1_hotel = 2000, mortage = 200, house_price = 200, hotel_price = 1000))
 
 }
+
+case class Board(
+    numPlayers: Int = 2,
+    cellStats: Array[CellState] = Array.fill[CellState](40)(CellState())) {
+
+}
